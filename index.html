@@ -1,0 +1,385 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="dist/output.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/8754cedc90.js" crossorigin="anonymous"></script>
+
+
+
+  <title>Mariam's Portfolio</title>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav id="nav" class="fixed w-full bg-white p-6 z-50">
+    <div class="container mx-auto flex justify-between items-center">
+      <div class="text-color1 logo text-3xl md:text-4xl">Jmariam</div>
+      <div class="hidden md:flex space-x-8 items-center">
+        <a href="#header" class="text-sm hover:text-color1 font-semibold">Home</a>
+        <a href="#about" class="text-sm hover:text-color1 font-semibold">About</a>
+        <a href="#skills" class="text-sm hover:text-color1 font-semibold">Skills</a>
+        <a href="#portfolio" class="text-sm hover:text-color1 font-semibold">Porfolio</a>
+        <a href="#contact" class="text-sm hover:text-color1 font-semibold">Contact</a>
+      </div>
+      <div class="md:hidden z-50 cursor-pointer text-color1">
+        <i id="bars" class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+   <!-- Mobile Menu -->
+
+      <div id="menu" class="fixed top-0 md:hidden h-full w-64 bg-white drop-shadow-2xl pl-10 z-50">
+          <div class="text-color1 logo text-2xl pt-8 ">Jmariam</div>
+          <div class="flex flex-col space-y-6 font-semibold pt-16" >
+            <a href="#home" class="hover:text-color1 border-b py-1 link">Home</a> 
+            <a href="#about" class="hover:text-color1 border-b py-1 link">About</a>
+            <a href="#skills" class="hover:text-color1 border-b py-1 link">Skills</a>
+            <a href="#portfolio" class="hover:text-color1 border-b py-1 link">Porfolio</a>
+            <a href="#contact" class="hover:text-color1 link">Contact</a>
+          </div>
+
+          <div class="absolute bottom-8 flex items-center space-x-8">
+            <a href="https://github.com/JMariam" target="_blank" class="text-color1">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://twitter.com/MariamJubril7" target="_blank" class="text-color1">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+              <a  href="https://wa.me/2348064901596" target="_blank" class="text-color1">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+              <a  href="https://www.linkedin.com/in/mariam-jubril-120685246/" target="_blank" class="text-color1">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+      </div>
+
+      <!-- HEADER -->
+      <div class="slinks hidden fixed left-16 top-64 lg:flex flex-col space-y-4 z-50">
+        <a href="https://github.com/JMariam" target="_blank" class="text-color1">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://twitter.com/MariamJubril7" target="_blank" class="text-color1">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+          <a  href="https://wa.me/2348064901596" target="_blank" class="text-color1">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a  href="https://www.linkedin.com/in/mariam-jubril-120685246/" target="_blank" class="text-color1">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+      </div> 
+
+      <header id="header" class="relative grid gap-y-20 container mx-auto pt-32 p-6 pb-10 md:grid-cols-2 md:gap-y-0">
+        
+        <div class="header">
+          <img src="./folio-images/picMy (2).jpg" class="rounded-t-full rounded-b-full h-80 w-72">
+      </div>
+        <div class="md:pt-20">
+          <h1 class="text-color1 text-3xl md:text-4xl lg:text-5xl font-bold place-item-start">Hi, I'm Mariam</h1>
+          <p class="text-md text-gray-500 pt-2 pb-6">FRONTEND DEVELOPER</p>
+          <p class="text-gray-400 text-xs lg:w-4/5">I am frontend developer passionate about using my skills in building responsive and user-friendly website that enhance the user experience.</p>
+          <div class="bg text-sm py-3 px-4 text-white rounded-br-2xl rounded-tl-2xl rounded w-fit mt-4 cursor-pointer hover:scale-105">
+            <a href="./folio-images/Mariam's Resume.pdf" download>Download CV</a>
+          </div>
+        </div>
+      </header>
+
+      <!-- ABOUT -->
+      <section id="about" class="relative bg-color3 mt-8 px-6 py-10 rounded-3xl">
+          <div class="container mx-auto grid gap-20 md:grid-cols-2">
+          <div class="">
+            <h1 class="text-color1 text-2xl md:text-4xl font-bold place-item-start">About Me</h1>
+            <p class="text-gray-600 text-sm my-8 lg:w-4/5">My name is Mariam Jubril, a computer science and economics undergraduate in Obafemi Awolowo University, Ile-Ife, Nigeria. I am a Junior Frontend Developer with adequate knowledge in required languages, frameworks and libraries. I am passionate about using my skills in building responsive and user-friendly website that enhance the user experience.</p>
+            <div class="bg text-sm py-3 px-4 text-white rounded-br-2xl rounded-tl-2xl rounded w-fit cursor-pointer hover:scale-105">
+              <a href="mailto:mariamjubril29@gmail.com">Contact ME</a>
+            </div>
+        </div>
+          <img src="./folio-images/undraw_web_development_0l6v.svg" alt="text-color1">
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="container mx-auto relative px-6 py-10">
+        <h1 class="text-color1 text-2xl font-bold md:text-4xl">SKILLS</h1>
+          <div class="pt-12">
+            <h1 class="text-lg text-color4 pb-4 font-semibold">Languages</h1>
+            <div class="">
+              <div class="flex items-center justify-between pb-2">
+                <p class="text-sm text-gray-500 ">HTML</p>
+                <p class="text-sm text-gray-500 ">90%</p>
+              </div>
+              <div class="w-full h-2 bg-color3 rounded">
+                <div class="html bg-color1 h-2 rounded">&nbsp;</div>
+              </div>
+            </div>
+
+            <div class="">
+              <div class="flex items-center justify-between pb-2 pt-8">
+                <p class="text-sm text-gray-500 ">CSS</p>
+                <p class="text-sm text-gray-500 ">85%</p>
+              </div>
+              <div class="w-full h-2 bg-color3 rounded">
+                <div class="css bg-color1  h-2 rounded">&nbsp;</div>
+              </div>
+            </div>
+
+            <div class="">
+              <div class="flex items-center justify-between pb-2 pt-8">
+                <p class="text-sm text-gray-500 ">JAVASCRIPT</p>
+                <p class="text-sm text-gray-500 ">65%</p>
+              </div>
+              <div class="w-full h-2 bg-color3 rounded">
+                <div class="js bg-color1 h-2 rounded">&nbsp;</div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="pt-12">
+            <h1 class="text-lg text-color4 pb-4 font-semibold">Frameworks & others</h1>
+            <div class="">
+              <div class="flex items-center justify-between pb-2">
+                <p class="text-sm text-gray-500 ">TAILWINDCSS</p>
+                <p class="text-sm text-gray-500 ">85%</p>
+              </div>
+              <div class="w-full h-2 bg-color3 rounded">
+                <div class="css bg-color1 h-2 rounded">&nbsp;</div>
+              </div>
+            </div>
+
+            <div class="">
+              <div class="flex items-center justify-between pb-2 pt-8">
+                <p class="text-sm text-gray-500 ">REACTJS</p>
+                <p class="text-sm text-gray-500 ">50%</p>
+              </div>
+              <div class="w-full h-2 bg-color3 rounded">
+                <div class="react bg-color1  h-2 rounded">&nbsp;</div>
+              </div>
+            </div>
+
+            <div class="">
+              <div class="flex items-center justify-between pb-2 pt-8">
+                <p class="text-sm text-gray-500 ">GIT & GITHUB</p>
+                <p class="text-sm text-gray-500 ">65%</p>
+              </div>
+              <div class="w-full h-2 bg-color3 rounded">
+                <div class="js bg-color1 h-2 rounded">&nbsp;</div>
+              </div>
+          </div>
+      </section>
+
+      <!-- PORTFOLIO -->
+      <section id="portfolio" class="container mx-auto relative px-6 py-12">
+        <h1 class="text-2xl text-color1 font-bold md:text-4xl">PORTFOLIO</h1>
+        <div class="mt-12 grid gap-10 md:grid-cols-2">
+      
+            <div class=" bg-white drop-shadow-lg rounded-md border ">
+              <div><img src="./folio-images/E-commece product page.png" class="rounded-md"></div>
+              
+              <div class="p-4">
+                <div class="flex flex-col md:items-center md:space-x-8 md:flex-row">
+                  <p class="text-sm my-2 text-gray-400 font-black">SNEAKERS</p>
+                  <p class="text-xs text-gray-400 ">HTML  .  CSS  .  JAVASCRIPT</p>
+                </div>
+                <p class="text-xs text-gray-500 mt-4">A responsive e-commerce website with  functional add-to-cart functionalities and lots more.</p> 
+                <div class="flex space-x-12 items-center mt-8">
+                  <div class="bg-p text-xs py-3 px-4 text-color1 font-bold rounded-md w-fit cursor-pointer hover:scale-105">
+                    <a href="https://jmariam.github.io/e-commerce-product-page/">Demo</a>
+                  </div>
+                  <div class="bg-p text-xs py-3 px-4 text-color1 font-bold rounded-md w-fit cursor-pointer hover:scale-105">
+                    <a href="https://github.com/JMariam/e-commerce-product-page">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class=" bg-white drop-shadow-lg rounded-md border ">
+              <div><img src="./folio-images/Musica.png" class="rounded-md"></div>
+              <div class="p-4">
+                <div class="flex flex-col md:items-center md:space-x-8 md:flex-row">
+                  <p class="text-sm my-2 text-gray-400 font-black">MUSICA</p>
+                  <p class="text-xs text-gray-400 ">HTML  .  TAILWINDCSS  .  JAVASCRIPT</p>
+                </div>
+                <p class="text-xs text-gray-500 mt-4">Musica is a music website with different Javascript functionalities.</p> 
+                <div class="flex space-x-12 items-center mt-8">
+                  <div class="bg-p text-xs py-3 px-4 text-color1 font-bold rounded-md w-fit cursor-pointer hover:scale-105">
+                    <a href="https://jmariam.github.io/musica/">Demo</a>
+                  </div>
+                  <div class="bg-p text-xs py-3 px-4 text-color1 font-bold rounded-md w-fit cursor-pointer hover:scale-105">
+                    <a href="https://github.com/JMariam/musica">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class=" bg-white drop-shadow-lg rounded-md border ">
+              <div><img src="./folio-images/Home rentas agency.png" class="rounded-md"></div>
+              <div class="p-4">
+                <div class="flex flex-col md:items-center md:space-x-8 md:flex-row">
+                  <p class="text-sm my-2 text-gray-400 font-black">MINIMUN LIVING</p>
+                  <p class="text-xs text-gray-400 ">HTML  .  TAILWINDCSS  .  JAVASCRIPT</p>
+                </div>
+                <p class="text-xs text-gray-500 mt-4">Minimun living cost is a home rentals agency webpage.</p> 
+                <div class="flex space-x-12 items-center mt-8">
+                  <div class="bg-p text-xs py-3 px-4 text-color1 font-bold rounded-md w-fit cursor-pointer hover:scale-105">
+                    <a href="https://jmariam.github.io/minimum-living-page/">Demo</a>
+                  </div>
+                  <div class="bg-p text-xs py-3 px-4 text-color1 font-bold rounded-md w-fit cursor-pointer hover:scale-105">
+                    <a href="https://github.com/JMariam/minimum-living-page">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class=" bg-white drop-shadow-lg rounded-md border ">
+              <div><img src="./folio-images/Crappo crypto.png" class="rounded-md"></div>
+              <div class="p-4">
+                <div class="flex flex-col md:items-center md:space-x-8 md:flex-row">
+                  <p class="text-sm my-2 text-gray-400 font-black">CRAPPO</p>
+                  <p class="text-xs text-gray-400 ">HTML  .  CSS  .  JAVASCRIPT</p>
+                </div>
+                <p class="text-xs text-gray-500 mt-4">Crappo is a well animated and responsive crpto landing pagewith different JavaScript functionalities.</p> 
+                <div class="flex space-x-12 items-center mt-8">
+                  <div class="bg-p text-xs py-3 px-4 text-color1 font-bold rounded-md w-fit cursor-pointer hover:scale-105">
+                    <a href="https://jmariam.github.io/crappo-crypto-landing-page/">Demo</a>
+                  </div>
+                  <div class="bg-p text-xs py-3 px-4 text-color1 font-bold rounded-md w-fit cursor-pointer hover:scale-105">
+                    <a href="https://github.com/JMariam/crappo-crypto-landing-page">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class=" bg-white drop-shadow-lg rounded-md border ">
+              <div><img src="./folio-images/Maison landing page.png" class="rounded-md"></div>
+              <div class="p-4">
+                <div class="flex flex-col md:items-center md:space-x-8 md:flex-row">
+                  <p class="text-sm my-2 text-gray-400 font-black">MAISON</p>
+                  <p class="text-xs text-gray-400 ">HTML  .  CSS  .  JAVASCRIPT</p>
+                </div>
+                <p class="text-xs text-gray-500 mt-4">A nice, responsive webpage for House rental agency with great UI i got from a Ui/UX designer from Twitter.</p> 
+                <div class="flex space-x-12 items-center mt-8">
+                  <div class="bg-p text-xs py-3 px-4 text-color1 font-bold rounded-md w-fit cursor-pointer hover:scale-105">
+                    <a href="https://jmariam.github.io/landing-page-for-real-estate-company/">Demo</a>
+                  </div>
+                  <div class="bg-p text-xs py-3 px-4 text-color1 font-bold rounded-md w-fit cursor-pointer hover:scale-105">
+                    <a href="https://github.com/JMariam/landing-page-for-real-estate-company">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class=" bg-white drop-shadow-lg rounded-md border ">
+              <div><img src="./folio-images/Working with UI II - Google Chrome 4_28_2023 8_05_57 AM (2).png" class="rounded-md"></div>
+              <div class="p-4">
+                <div class="flex flex-col md:items-center md:space-x-8 md:flex-row">
+                  <p class="text-sm my-2 text-gray-400 font-black">JPA FURNITURE</p>
+                  <p class="text-xs text-gray-400 ">HTML  .  TAILWINDCSS  .  JAVASCRIPT</p>
+                </div>
+                <p class="text-xs text-gray-500 mt-4">A nice, responsive webpage for House rental agency with great UI i got from a Ui/UX designer from Twitter.</p> 
+                <div class="flex space-x-12 items-center mt-8">
+                  <div class="bg-p text-xs py-3 px-4 text-color1 font-bold rounded-md w-fit cursor-pointer hover:scale-105">
+                    <a href="https://jmariam.github.io/landing-page/">Demo</a>
+                  </div>
+                  <div class="bg-p text-xs py-3 px-4 text-color1 font-bold rounded-md w-fit cursor-pointer hover:scale-105">
+                    <a href="https://github.com/JMariam/landing-page">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class=" bg-white drop-shadow-lg rounded-md border ">
+              <div><img src="./folio-images/Random Choice Picker.png" class="rounded-md"></div>
+              <div class="p-4">
+                <div class="flex flex-col md:items-center md:space-x-8 md:flex-row">
+                  <p class="text-sm my-2 text-gray-400 font-black">CHOICE PICKER</p>
+                  <p class="text-xs text-gray-400 ">HTML  .  CSS  .  JAVASCRIPT</p>
+                </div>
+                <p class="text-xs text-gray-500 mt-4">A random choice picker site developed mainy with JavaScript, fully functional with great UI.</p> 
+                <div class="flex space-x-12 items-center mt-8">
+                  <div class="bg-p text-xs py-3 px-4 text-color1 font-bold rounded-md w-fit cursor-pointer hover:scale-105">
+                    <a href="https://jmariam.github.io/random-choice-picker/">Demo</a>
+                  </div>
+                  <div class="bg-p text-xs py-3 px-4 text-color1 font-bold rounded-md w-fit cursor-pointer hover:scale-105">
+                    <a href="https://github.com/JMariam/random-choice-picker">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class=" bg-white drop-shadow-lg rounded-md border ">
+              <div><img src="./folio-images/MyFolio.png" class="rounded-md"></div>
+              <div class="p-4">
+                <div class="flex flex-col md:items-center md:space-x-8 md:flex-row">
+                  <p class="text-sm my-2 text-gray-400 font-black">JMARIAM</p>
+                  <p class="text-xs text-gray-400 ">HTML  .  TAILWINDCSS  .  JAVASCRIPT</p>
+                </div>
+                <p class="text-xs text-gray-500 mt-4">My Portfolio</p> 
+                <div class="flex space-x-12 items-center mt-8">
+                  <div class="bg-p text-xs py-3 px-4 text-color1 font-bold rounded-md w-fit cursor-pointer hover:scale-105">
+                    <a href="https://jmariam.github.io/my-portfolio/">Demo</a>
+                  </div>
+                  <div class="bg-p text-xs py-3 px-4 text-color1 font-bold rounded-md w-fit cursor-pointer hover:scale-105">
+                    <a href="https://github.com/JMariam/my-portfolio">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="bg-color relative px-6 py-8 mt8 rounded-tl-3xl">
+       <div class="container mx-auto">
+        <h1 class="text-color1 text-2xl font-bold md:text-4xl py-6">CONTACT</h1>
+        <h1 class="text-sm md:text-lg text-gray-500 mb-6">I am looking forward to any opportunities such as junior Frontend roles and also internships. Interested in giving me a chance? HMU.......</h1>
+        <div class="flex items-center gap-20 mb-6">
+          <a href="https://github.com/JMariam" target="_blank" class="text-color1">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://twitter.com/MariamJubril7" target="_blank" class="text-color1">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+            <a  href="https://wa.me/2348064901596" target="_blank" class="text-color1">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a  href="https://www.linkedin.com/in/mariam-jubril-120685246/" target="_blank" class="text-color1">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
+        
+          <form action="https://formsubmit.co/mariamjubril29@gmail.com" method="POST" class="grid gap-4">
+            <div class="flex flex-col md:flex-row gap-4">
+              <input type="text" name="text" placeholder="Your name" class="bg-color3 p-4 md:w-1/2 rounded outline-none border-none text-color4" required>
+              <input type="email" name="email" placeholder="Enter your Email address......" class="bg-color3 p-4 md:w-1/2 rounded outline-none border-none text-color4" required>
+            </div>
+            <input type="text" name="text" placeholder="Project" class="bg-color3 p-4 w-full rounded outline-none border-none text-color4" required>
+            <textarea name="message" id="" cols="30" rows="10" class="bg-color3 p-4 w-full rounded outline-none border-none text-color4" placeholder="Your Message Here......"></textarea>
+            <button type="submit" class="shy text-white w-fit text-md rounded-lg font-bold px-4 py-3 mb-6 bg-color4 ">Get In Touch
+            </button>
+          </form>
+       </div>
+      </section>
+
+
+      <!-- TO TOP -->
+      <a href="#" id="to-top" class="bg-color1 py-2 px-3 text-white rounded-md fixed bottom-2 right-8 md:bottom-4 md:right-16 mb-8 opacity-0">
+        <i class="fa-solid fa-arrow-up"></i>
+      </a>
+    <script src="./main.js"></script>
+
+   
+</body>
+</html>
+
