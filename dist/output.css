@@ -640,6 +640,10 @@ video {
   height: 0.5rem;
 }
 
+.h-1 {
+  height: 0.25rem;
+}
+
 .w-full {
   width: 100%;
 }
@@ -1040,22 +1044,6 @@ img{
   height: 100%;
 }
 
-.html{
-  width: 90%;
-}
-
-.css{
-  width: 85%;
-}
-
-.js{
-  width: 65%;
-}
-
-.react{
-  width: 50%;
-}
-
 i:hover{
   scale: 120%;
 }
@@ -1092,7 +1080,13 @@ i:hover{
 
 @media (max-width: 393px){
   .header::before{
-    right: 8%;
+    right: 10%;
+  }
+}
+
+@media (max-width: 360px){
+  .header::before{
+    right: 4%;
   }
 }
 
